@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مكه - خدمات غسيل الملابس والمفروشات</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-right">
+        <span><i class="fas fa-phone-alt"></i> 01031278853</span>
+        <span><i class="fas fa-map-marker-alt"></i> سنتر الفيروز  بجوار مسجد الحصري، المحور المركزي، محافظة الجيزة</span>
+      </div>
+      <div class="top-bar-left">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/201115572079" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="logo.jpg" alt="Maka Laundry Logo" class="logo-img"/>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#why-us">لماذا نحن</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="hero" id="home">
+    <div class="slider">
+      <div class="slide active" style="background-image: url('1736750467852.webp');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h2>تهم بالتقصير...<br/>لتحصل على النظافة المثالية</h2>
+          <p>من تنظيف الملابس في المنزل والمفروشات والاقمشة المتعددة<br/>نقدم لكم خدمات مكثفة</p>
+          <a href="#contact" class="btn-hero">اطلب الخدمة الان</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('908.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h2>خدمات غسيل احترافية<br/>باعلى معايير الجودة</h2>
+          <p>نضمن لك نظافة ملابسك ومفروشاتك<br/>مع التسليم في الوقت المحدد</p>
+          <a href="#contact" class="btn-hero">تواصل معنا</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=1400&q=80');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h2>نظافة لا مثيل لها<br/>حتى باب منزلك</h2>
+          <p>استلم ملابسك ومفروشاتك نظيفة<br/>في الوقت المحدد وبن مرتاح البال</p>
+          <a href="#services" class="btn-hero">خدماتنا</a>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-right"></i></button>
+    <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-left"></i></button>
+    <div class="slider-dots" id="sliderDots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>ملتزمون بتقديم خدمات غسيل الملابس<br/>والمفروشات بجودة عالية ودقة متناهية!</h2>
+        <p>نحن فريق متخصص في تقديم خدمات غسيل الملابس والمفروشات باعلى معايير الجودة. نستخدم احدث التقنيات والمواد الصديقة للبيئة لضمان نظافة ملابسك وحفاظها على الوانها وجودتها.</p>
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle"></i> ضمان بالخدمة بنسبة 100%</li>
+          <li><i class="fas fa-check-circle"></i> فريق محترف ومدرب</li>
+          <li><i class="fas fa-check-circle"></i> التوصيل من والى المنزل</li>
+          <li><i class="fas fa-check-circle"></i> اسعار تنافسية ومناسبة</li>
+          <li><i class="fas fa-check-circle"></i> خدمة عملاء على مدار الساعة</li>
+          <li><i class="fas fa-check-circle"></i> تقنيات حديثة للتنظيف</li>
+        </ul>
+        <a href="#contact" class="btn-primary">تواصل معنا</a>
+      </div>
+      <div class="about-image">
+        <img src="876.jpg" alt="خدمات الغسيل"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>استلم ملابسك ومفروشاتك نظيفة حتى باب المنزل</h2>
+      <p>اطلب الان خدماتنا ... تسلم في الوقت المحدد وبن مرتاح البال</p>
+      <a href="tel:01031278853" class="btn-cta"><i class="fas fa-phone-alt"></i> اتصل بنا الان</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>خدماتنا</h2>
+        <div class="section-line"></div>
+        <p>نقدم مجموعة متكاملة من خدمات التنظيف والغسيل لتلبية جميع احتياجاتكم</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <h3>غسيل الملابس</h3>
+          <p>نقدم خدمة غسيل الملابس باعلى معايير الجودة مع الحفاظ على الالوان والاقمشة</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-couch"></i>
+          </div>
+          <h3>تنظيف المفروشات</h3>
+          <p>خدمة متخصصة لتنظيف السجاد والستائر والمفروشات بتقنيات حديثة</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-wind"></i>
+          </div>
+          <h3>التنظيف الجاف</h3>
+          <p>تنظيف جاف احترافي للملابس الحساسة والاقمشة الفاخرة</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>التوصيل المنزلي</h3>
+          <p>خدمة الاستلام والتوصيل من والى منزلك في الوقت المحدد</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>لماذا تختارنا ؟</h2>
+        <div class="section-line"></div>
+        <p>نحن من ابرز رواد تقديم خدمات التنظيف شاملة بجودة عالية لتشمل الملابس والمفروشات والاقمشة. تاسسنا في يونيو 2012 نقدم لكم الافضل في عالم التنظيف مع خدمات مخصصة لكل موسم واحتياج</p>
+      </div>
+      <div class="why-cards">
+        <div class="why-card">
+          <div class="why-icon orange">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>خدمة التواصل</h3>
+          <p>يوفر لك خدمة تواصل مريحة مرنة لتسهيل تقديم وتسليم الملابس</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon orange">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>فريق محترف</h3>
+          <p>لدينا فريق تواصل تام معك بشكل يضمن راحتك وسعادتك</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon orange">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>جودة عالية</h3>
+          <p>نحن نستخدم افضل المنتجات لتنظيف الملابس المتعددة للاقمشة والملابس</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2>معرض الصور</h2>
+        <div class="section-line"></div>
+        <p>لقطات من أعمالنا وخدماتنا المتميزة</p>
+      </div>
+      <div class="gallery-slider-container">
+        <button class="gallery-btn gallery-prev" id="galleryPrev">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="gallery-slider-wrapper">
+          <div class="gallery-slider-track" id="galleryTrack">
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="1736750467852.webp" alt="ملابس مطوية"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80" alt="ملابس معلقة"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="675.jpg" alt="ملابس ملونة"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="564.jpg" alt="قميص وبنطلون"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="876.jpg" alt="قميص وبنطلون"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="908.jpg" alt="قميص وبنطلون"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <div class="gallery-slide-inner">
+                <img src="395188.jpeg" alt="قميص وبنطلون"/>
+                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="gallery-btn gallery-next" id="galleryNext">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      </div>
+      <div class="gallery-dots" id="galleryDots"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container contact-container">
+      <div class="contact-form-wrap">
+        <h2>تواصل معنا</h2>
+        <h3>ارسل لنا رسالة <span class="arrow-icon">&#10148;</span></h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="الاسم الاول" required/>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="اسم العائلة" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="email" placeholder="البريد الالكتروني" required/>
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="رقم الهاتف" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="رسالتك..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> ارسل</button>
+        </form>
+      </div>
+      <div class="contact-map">
+        <h3>موقعنا</h3>
+        <div class="map-container">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.3172094808797!2d30.9401875!3d29.970312500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458575e14f036a5%3A0xe5a9f0d0e7bafbc!2zRHJ5IENsZWFuIE1lY2NhLiDYr9ix2KfZiiDZg9mE2YrZhiDZhdmD2YcgMQ!5e0!3m2!1sar!2seg!4v1772347264929!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>01031278853</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>سنتر الفيروز  بجوار مسجد الحصري، المحور المركزي، محافظة الجيزة</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@maka.com.sa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Maka Laundry Logo" class="footer-logo-img"/>
+          <p>خدمات غسيل الملابس والمفروشات باعلى معايير الجودة في مكة المكرمة</p>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/201115572079" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>روابط هامة</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-angle-left"></i> الرئيسية</a></li>
+          <li><a href="#about"><i class="fas fa-angle-left"></i> من نحن</a></li>
+          <li><a href="#services"><i class="fas fa-angle-left"></i> خدماتنا</a></li>
+          <li><a href="#why-us"><i class="fas fa-angle-left"></i> لماذا نحن</a></li>
+          <li><a href="#contact"><i class="fas fa-angle-left"></i> تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>من نحن</h4>
+        <p>نحن شركة متخصصة في تقديم خدمات غسيل الملابس والمفروشات بجودة عالية. تاسسنا عام 2012 ونسعى دائما لتقديم افضل خدمة لعملائنا الكرام.</p>
+      </div>
+      <div class="footer-col">
+        <h4>اطلب الخدمة الان</h4>
+        <p>تواصل معنا الان للحصول على افضل خدمات التنظيف</p>
+        <a href="tel:01031278853" class="footer-btn"><i class="fas fa-phone-alt"></i> 01031278853</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>جميع الحقوق محفوظة &copy; 2024 <strong>مكه</strong> - خدمات غسيل الملابس والمفروشات</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
