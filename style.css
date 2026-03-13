@@ -158,7 +158,7 @@ img {
 
 /* ===== LOGO IMAGE ===== */
 .logo-img {
-  height: 110px;
+  height: 128px;
   width: auto;
   object-fit: contain;
   border-radius: 8px;
@@ -1257,3 +1257,4 @@ img {
     font-size: 14px;
   }
 }
+
